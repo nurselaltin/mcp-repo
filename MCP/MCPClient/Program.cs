@@ -4,7 +4,7 @@ using ModelContextProtocol.Client;
 var clientTransport = new StdioClientTransport(new StdioClientTransportOptions
 {
   Name = "MCP SERVER",
-  Command = "PATH"
+  Command = "C:\\Users\\nursel.altin\\source\\repos\\mcp-repo\\MCP\\MCPServer\\bin\\Debug\\net7.0\\MCP.Server.exe"
 });
 
 var client = await McpClientFactory.CreateAsync(clientTransport);
